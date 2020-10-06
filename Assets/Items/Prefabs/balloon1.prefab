@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4546062505203225262}
   - component: {fileID: 4777718305355163800}
   - component: {fileID: 1256878230776353889}
+  - component: {fileID: -7287177887489779576}
   m_Layer: 0
   m_Name: balloon1
   m_TagString: Untagged
@@ -80,6 +81,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &-7287177887489779576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670334975291859133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a2a96c07d85b2459645b32af2dfcac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8825657240670639123
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,7 +183,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
